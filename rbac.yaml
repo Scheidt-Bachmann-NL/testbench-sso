@@ -1,7 +1,5 @@
 roles:
   PTO:
-    roles:
-      - GENERAL
     permissions:
       - read:pto-docs
   TSC:
