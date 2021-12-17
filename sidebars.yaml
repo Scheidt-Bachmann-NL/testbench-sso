@@ -1,4 +1,19 @@
 training:
+  - group: Getting Started
+    expanded: false
+    pages:
+      - group: Travel Scheme
+        pages:
+          - label: Role of Travel Scheme
+            page: introduction/travel-scheme/index.md
+      - group: PTO
+        pages:
+          - label: Role of PTO
+            page: introduction/pto/index.md
+      - group: PTO
+        pages:
+          - label: Role of Super Admin
+            page: introduction/super-admin/index.md
   - page: developer-portal/index.md
   - group: Training exercises
     expanded: true

@@ -1,0 +1,16 @@
+roles:
+  PTO:
+    roles:
+      - GENERAL
+    permissions:
+      - read:pto-docs
+  TSC:
+    roles:
+      - PTO
+    permissions:
+      - read:tsc-docs
+  SA:
+    roles:
+      - TSC
+    permissions:
+      - read:sa-docs
