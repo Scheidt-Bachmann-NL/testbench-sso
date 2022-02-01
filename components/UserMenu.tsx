@@ -22,7 +22,7 @@ export default function UserMenu() {
     const popoverRef = React.useRef<HTMLDivElement>();
     const [opened, toggleOpened] = usePopoverState(popoverRef);
     const _logout = () => {
-        fetch("https://farego.eu.auth0.com/logout?client_id=zs4NIgcI1J0hLNXqK1nIDgy9qYOgzFxd", {"mode": "no-cors","credentials": "include"});
+        //fetch("https://farego.eu.auth0.com/logout?client_id=zs4NIgcI1J0hLNXqK1nIDgy9qYOgzFxd", {"mode": "no-cors","credentials": "include"});
         logout(window.location.origin)
     }
 
